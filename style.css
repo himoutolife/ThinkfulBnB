@@ -88,10 +88,9 @@ header nav ul li a:hover {/*link hover*/
 }
 
 /* -------  Search Form ------- */
-form {
+form {/*makes the full form container flex*/ 
   border: 2px solid #ff385c;
   padding: 10px;
-  flex-direction: row;
 }
 
 form label {
@@ -148,14 +147,14 @@ footer p {
     align-items: center;
     justify-content: center;
   }
-
-  form div{
-    flex-direction: column;
-    
-  }
+form div{
+  flex-direction: column;
+}
+  
   form button{
     flex: 1;
   }
+  
   form select,
   form input{
     margin-bottom: 0px;
